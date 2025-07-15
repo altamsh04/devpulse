@@ -1,0 +1,79 @@
+@import "../styles/fonts";
+@import "../styles/reset";
+@import "../styles/variables";
+
+body {
+  color: $black;
+  background-color: $greyWhite;
+}
+
+
+#popup {
+  min-width: 350px;
+  padding: 30px 20px;
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #options__button {
+    width: 50%;
+    background: green;
+    color: white;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 5px 10px;
+    justify-content: center;
+    margin: 20px auto;
+    cursor: pointer;
+    opacity: 0.8;
+    display: flex;
+  }
+
+  .links__holder {
+    ul {
+      display: flex;
+      margin-top: 1em;
+      justify-content: space-around;
+
+      li {
+        button {
+          border-radius: 25px;
+          font-size: 20px;
+          font-weight: 600;
+          padding: 10px 17px;
+          background-color: rgba(0, 0, 255, 0.7);
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+#devpulse-popup.devpulse-dark {
+  background: #181a1b;
+  color: #fff;
+  font-family: monospace;
+  min-width: 350px;
+  padding: 18px 16px;
+}
+
+#devpulse-popup .section {
+  margin-bottom: 18px;
+}
+
+#devpulse-popup h1, #devpulse-popup h2 {
+  margin: 0 0 8px 0;
+}
+
+#devpulse-popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#devpulse-popup li {
+  margin-bottom: 4px;
+}
